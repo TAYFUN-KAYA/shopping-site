@@ -220,7 +220,11 @@ body {
         display: flex;
         padding-left: 24px;
         gap: 32px;
-        padding-left: 25%;
+        padding-left: 28%;
+    }
+
+    #next-btn {
+        margin-top: 8%;
     }
 
     #products:last-child {
