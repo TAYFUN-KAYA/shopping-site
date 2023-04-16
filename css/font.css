@@ -1,0 +1,189 @@
+@font-face {
+    font-family: 'Avenir';
+    src: url('../fonts/Avenir.ttc') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'itcAvantProBk';
+    src: url("../fonts/ITCAvantGardePro-Bk.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'itcAvantProBold';
+    src: url("../fonts/ITCAvantGardePro-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'itcAvantProDemi';
+    src: url("../fonts/ITCAvantGardePro-Demi.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'itcAvantProMd';
+    src: url("../fonts/ITCAvantGardePro-Md.otf") format("opentype");
+}
+
+.title-header {
+    font-family: 'itcAvantProBold';
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffffff;
+    margin-left: 4px;
+    line-height: 130%;
+}
+
+#titles {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-left: 25px;
+    padding-bottom: 20px;
+}
+
+#blur-section {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 78.65%);
+    opacity: 0.5;
+    width: 100%;
+    height: 50%;
+}
+
+#btn {
+    font-family: 'Avenir';
+    font-weight: 900;
+    font-size: 12.8px;
+    line-height: 17px;
+    text-transform: capitalize;
+    background-color: transparent;
+    margin-bottom: 32px;
+    margin-top: 16px;
+    border: 0px;
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+
+.product-title {
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 160%;
+    color: #000000;
+    margin-top: 8px;
+    user-select: none;
+    pointer-events: none;
+}
+
+.product-price {
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12.8px;
+    line-height: 160%;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    user-select: none;
+    pointer-events: none;
+}
+
+
+
+@media only screen and (min-width: 1400px) and (max-width: 2000px) {
+    .title-header-web {
+        font-family: 'itcAvantProBold';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 31.25px;
+        line-height: 130%;
+
+        display: flex;
+        align-items: flex-end;
+        color: #000000;
+    }
+
+    #btn {
+        font-family: 'Avenir';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 12.8px;
+        line-height: 17px;
+        display: flex;
+        align-items: center;
+        text-transform: capitalize;
+        background-color: transparent;
+        margin-bottom: 32px;
+        margin-left: 20px;
+        margin-top: 16px;
+        border: 0px;
+        color: #ffffff;
+        border-bottom: 1px solid #ffffff;
+    }
+
+    #sub-title {
+        margin-top: 12px;
+        margin-bottom: 22px;
+    }
+
+    .sub-title-header {
+        font-family: 'Avenir';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        color: #666666;
+    }
+
+    #btn-web {
+        font-family: 'Avenir';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 12.8px;
+        line-height: 17px;
+        display: flex;
+        align-items: center;
+        text-transform: capitalize;
+        color: #000000;
+        background-color: transparent;
+        border: 0px;
+        border-bottom: 1px solid #000000;
+    }
+}
+
+@media only screen and (min-width: 750px) and (max-width: 1400px) {
+    .title-header {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 31.25px;
+        line-height: 130%;
+
+        display: flex;
+        align-items: flex-end;
+        padding-left: 20px;
+        color: #ffffff;
+    }
+
+    #btn {
+        font-family: 'Avenir';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 12.8px;
+        line-height: 17px;
+        display: flex;
+        align-items: center;
+        text-transform: capitalize;
+        background-color: transparent;
+        margin-bottom: 32px;
+        margin-left: 20px;
+        margin-top: 16px;
+        border: 0px;
+        color: #ffffff;
+        border-bottom: 1px solid #ffffff;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 750px) {}
