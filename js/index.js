@@ -37,7 +37,7 @@ const data = [
   },
   {
     id: 6,
-    name: "Organic Skinny High Waist Jeans",
+    name: "Organic Skinny High Waist Hoodie",
     price: 33.95,
     image: "./images/hoodie.png",
     color: ["#99C3CC", "#CC9999", "#CB99CC", "#BCD9B2"],
