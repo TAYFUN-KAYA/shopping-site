@@ -7,10 +7,8 @@
 <h1 align="center">Hi 👋, I'm Tayfun</h1>
 <h3 align="center">In this project, I developed a responsive shopping frontend. I tried to make the same design as requested.
 </h3>
-<h3 align="center"> 💫 I used responsive app extension. I have attached a screenshot below.
+<h3 align="center"> 💫 I used responsive app extension. 
 </h3>
-
-
-
-
-
+<h3 align="center"> 💯 I made things a little harder and created elements on the js side and set it up as if it were getting the data from an endpoint.
+</h3>
+[Live link : ](shopping-site-five.vercel.app)
