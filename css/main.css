@@ -44,6 +44,7 @@ body {
     height: 100%;
     width: 100%;
 }
+
 /* content section */
 
 #content-section {
@@ -69,6 +70,7 @@ body {
     overflow-x: auto;
     flex-wrap: nowrap;
     -webkit-overflow-scrolling: touch;
+    position: relative;
 }
 
 .product-container {
@@ -82,6 +84,17 @@ body {
     width: 148px;
     user-select: none;
     pointer-events: none;
+}
+
+/* next btn */
+#next-btn {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    position: fixed;
+    margin-top: 10%;
+    right: 48px;
 }
 
 /* color palate */
@@ -127,6 +140,55 @@ body {
     background-color: #99C3CC;
 }
 
+@media only screen and (min-width: 2000px) and (max-width: 2500px) {
+    #content-section {
+        height: 100%;
+    }
+
+    #titles {
+        display: none;
+    }
+
+    #blur-section {
+        display: none;
+    }
+
+    #titles-web {
+        display: flex;
+        justify-content: center;
+    }
+
+    #flex-title {
+        margin-top: 96px;
+    }
+
+    .thumbnailler {
+        margin-top: 68px;
+        position: relative;
+    }
+
+    #products {
+        display: flex;
+        padding-left: 24px;
+        gap: 32px;
+        padding-left: 32%;
+    }
+
+    #products:last-child {
+        padding-right: 35px;
+    }
+
+    .image-product {
+        height: 310px;
+        width: 230px;
+    }
+
+    .info-product {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
 @media only screen and (min-width: 1600px) and (max-width: 2000px) {
     #content-section {
         height: 100%;
@@ -158,8 +220,7 @@ body {
         display: flex;
         padding-left: 24px;
         gap: 32px;
-        padding-left: 28%;
-        /* overflow-x: auto; */
+        padding-left: 25%;
     }
 
     #products:last-child {
@@ -209,7 +270,6 @@ body {
         padding-left: 24px;
         gap: 32px;
         padding-left: 21%;
-        /* overflow-x: auto; */
     }
 
     #products:last-child {
@@ -233,6 +293,10 @@ body {
         display: block;
         height: 50%;
         background-color: purple;
+    }
+
+    #next-btn {
+        display: none;
     }
 
     #content-section {
@@ -261,6 +325,10 @@ body {
         display: block;
         height: 50%;
         background-color: orange;
+    }
+
+    #next-btn {
+        display: none;
     }
 
     #content-section {
