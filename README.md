@@ -11,4 +11,7 @@
 </h3>
 <h3 align="center"> 💯 I made things a little harder and created elements on the js side and set it up as if it were getting the data from an endpoint.
 </h3>
-[Live link : ](shopping-site-five.vercel.app)
+<h3 align="center"> 
+Live link : 
+<a href="https://shopping-site-five.vercel.app/" target="_blank">Introduction</a>
+</h3>
